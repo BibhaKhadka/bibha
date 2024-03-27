@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(240, 250, 240);
+    width: 15vw;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    height: 58vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hello {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: honeydew;
+    color: rgb(113, 101, 101);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.devPic img {
+    height: 70vh;
+}
+
+footer {
+    background-color: honeydew;
+    color: #3e3d3d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+skills{
+    margin: 20px; 
+    width: 80vw;
+}
+.skill-bar {
+    margin: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-name {
+    width: 100px;
+    font-weight: bold;
+}
+
+.skill-percent {
+    margin-right: 10px;
+}
+
+.skill-filler {
+    flex-grow: 1;
+    background-color: lightgray;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.skill-filler::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 40%;
+    background-color:rgb(199, 248, 199); 
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+

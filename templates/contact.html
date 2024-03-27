@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:you@example.com">khadkabibha@gmail.com</a></p>
+            <p> Instagram: <a href="https://www.instagram.com/bibha_khadka/" target="_blank">bibha_khadka</a></p>
+            <p> LinkedIn: <a href="https://www.linkedin.com/in/yourname/" target="_blank">Bibha Khadka</a></p>
+        </div>
+        <form method="POST" action="https://formspree.io/your@email.com" id="contact-form" novalidate>
+            <input type="text" name="name" placeholder="Name" id="name-input" required>
+            <input type="email" name="email" placeholder="Email" id="email-input" required>
+            <textarea name="message" placeholder="Message" id="message-input" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

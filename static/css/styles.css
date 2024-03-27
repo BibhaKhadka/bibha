@@ -1,0 +1,77 @@
+.contact-section {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-info a {
+    color: #5c5c5c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #444;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px rgba(0, 102, 255, 0.5);
+}
+
+#contact-form button {
+    padding: 0.5rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #0062cc;
+}
+
+#contact-form button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
+#contact-form [required] {
+    border-color: #f00;
+}
+
+#contact-form [aria-invalid="true"] {
+    background-color: #fff1f0;
+    box-shadow: 0 0 1px 1px #f00;
+}
+
+#contact-form ::-webkit-validation-bubble-message {
+    color: #f00;
+}
